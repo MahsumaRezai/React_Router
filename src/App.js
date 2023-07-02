@@ -1,11 +1,22 @@
-import './App.css';
+import { Router } from 'react-router-dom';
+
+import Welcome from './componet/Welcom';
+import Product from './componet/Product';
 
 function App() {
   return (
-    <div className="App">
-     
+    <div>
+      <main>
+        <Router path='/welcome'>
+          <Welcome />
+        </Router>
+        <Router path='/products'>
+          <Product />
+        </Router>
+      </main>
     </div>
   );
 }
 
 export default App;
+
