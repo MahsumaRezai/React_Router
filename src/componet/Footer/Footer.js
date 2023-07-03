@@ -1,13 +1,12 @@
 import classes from './Footer.module.css';
-import {Route} from 'react-router-dom';
-import Footers from '../../pages/Footer';
-const Footer=(props)=>{
+const Footer = (props) => {
     return (
         <div className={classes.Footer}>
-            <Route path='/Footer'>
-                <Footers/>
+            <div className={classes.text}>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae pariatur iste at eveniet, ut error eius nobis dolores
+                    reiciendis velit facilis commodi voluptatum amet, dolore consequuntur maiores vitae repellendus cumque.</p>
+            </div>
 
-            </Route>
 
         </div>
     )
