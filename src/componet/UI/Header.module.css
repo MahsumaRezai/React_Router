@@ -1,5 +1,5 @@
 .head {
-    background: #2d2d2d;
+    background: mediumpurple;
     width: 100%;
     color: white;
     height: 50px;
@@ -21,7 +21,7 @@
 }
 
 .title {
-   text-align: start;
+    text-align: start;
 
 
 }
