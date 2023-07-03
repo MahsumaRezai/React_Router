@@ -8,6 +8,7 @@ import SectionOne from "./componet/Section/SectionOne";
 import AddUser from "./componet/AddUser/AddUser";
 import UserList from "./componet/CheckFrom/UserList";
 import { useState } from "react";
+import Footer from './componet/Footer/Footer';
 
 function App() {
 
@@ -41,7 +42,7 @@ function App() {
         <SectionOne />
         <AddUser onAddUser={userHadler} />
         <UserList users={userdata} />
-
+        <Footer />
 
 
 
