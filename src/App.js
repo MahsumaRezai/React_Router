@@ -1,19 +1,18 @@
-import { Router } from 'react-router-dom';
-
-import Welcome from './componet/Welcom';
-import Product from './componet/Product';
+import { Route } from 'react-router-dom'
+import Welcome from './pages/Welcome';
+import Products from './pages/Proudect';
 
 function App() {
   return (
     <div>
-      <main>
-        <Router path='/welcome'>
-          <Welcome />
-        </Router>
-        <Router path='/products'>
-          <Product />
-        </Router>
-      </main>
+      <Route path="/welcome">
+        <Welcome />
+      </Route>
+      <Route path='/product'>
+        <Products/>
+      </Route>
+
+
     </div>
   );
 }

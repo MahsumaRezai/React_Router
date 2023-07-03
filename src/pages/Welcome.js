@@ -1,4 +1,4 @@
 const Welcome = (props) => {
-    return <h2>Welcome to react js router</h2>
+    return <h2>Hello from the js code</h2>
 }
 export default Welcome;
