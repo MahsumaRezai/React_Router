@@ -44,10 +44,6 @@ function App() {
         <UserList users={userdata} />
         <Footer />
 
-
-
-
-
       </Fragment>
 
     </div>
